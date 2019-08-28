@@ -1,0 +1,16 @@
+PODS:
+  - EventsCalendar (0.1.0)
+
+DEPENDENCIES:
+  - EventsCalendar (from `../`)
+
+EXTERNAL SOURCES:
+  EventsCalendar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EventsCalendar: bd5f1572cfd9ed61b803a1f972c33354a72754c4
+
+PODFILE CHECKSUM: 6f856ca073dcd21153daa8c6bddfd42e8e4b3e27
+
+COCOAPODS: 1.6.1
