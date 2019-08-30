@@ -22,18 +22,18 @@ Events Calendar is a user-friendly iOS Swift library that helps you achieve a co
                        DESC
 
   s.homepage         = 'https://github.com/akaashdev/EventsCalendar'
-  s.screenshots      = 'https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_1',
-                        'https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_2',
-                        'https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_3',
-                        'https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_4',
-                        'https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_5',
-                        'https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_6'
+  s.screenshots      = 'https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_1.png',
+                        'https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_2.png',
+                        'https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_3.png',
+                        'https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_4.png',
+                        'https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_5.png',
+                        'https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_6.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Akaash Dev' => 'heatblast.akaash@gmail.como' }
   s.source           = { :git => 'https://github.com/akaashdev/EventsCalendar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'EventsCalendar/Classes/**/*'
   

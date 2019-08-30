@@ -7,196 +7,207 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16A109E5D8F799D507B15D5E0C059387 /* EventsCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 630EF4FAA3F51006D848CBA1CCE4A9BA /* EventsCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		414C986324091A9ABDB7A3130ADC1156 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1BB8A66431972F2F142A46B9D716B9 /* ReplaceMe.swift */; };
-		548B21015ABBFAD12A9A7E26114AA132 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		9A95D5EAFACC4C89D29694F871DF6E3B /* Pods-EventsCalendar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F73DC41BAFC4CDBE9C4D10E66DA464 /* Pods-EventsCalendar_Example-dummy.m */; };
-		B4727EA5D2A1863E7E713F2692247E36 /* Pods-EventsCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3320C69433EAF2EB7A4E29AA65283F /* Pods-EventsCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF21C6989094AA5B819EE365BD4B9647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		C6A7ECB20A266D046AFFD8F274ADDEE3 /* Pods-EventsCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE42B5D53815EA9470E3C7B6CEBA9AF /* Pods-EventsCalendar_Tests-dummy.m */; };
-		CF343D634BDDE9B3802F3C2E741979B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		D220368D838958F0AB71965E7B514764 /* EventsCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E95A5D73594084BFE2A04E9AA5E560 /* EventsCalendar-dummy.m */; };
-		F6556AD48F6E00DD0CBCAE7E0BFA1E36 /* Pods-EventsCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B9493E319EE239CD5193DC83243E61 /* Pods-EventsCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0420490FF8C7B4DF2929348B2D73DCAB /* EventsCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C488DF12DED28C593B6AE5E804F5F6F4 /* EventsCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06035B5CCC0926CC3AF790548E7910A2 /* Configurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3416E63A8D0296ABAE2D4A3FC6D066D /* Configurations.swift */; };
+		1561BEF00DF4CF021D7872474F20228A /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0AFD5320BF2186F8E7C34AB438849A /* WeekView.swift */; };
+		2EC6A119167DA98C35478DAEC11DEBC4 /* Pods-EventsCalendar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CD239126ADB430C2D582855C724DD1 /* Pods-EventsCalendar_Example-dummy.m */; };
+		34EA033810172C8A0972AB7F44CFD300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3F69BF1587B20EB9B8655E7B362D75AB /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D210A823B2B1F32636D89E4889084 /* MonthView.swift */; };
+		4288550C2F16C82C20F89D659934F6F6 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CFC1200379F1555D7A7BC51D72D758 /* Size.swift */; };
+		4D5A4F24C56DC30037D2A866438E308C /* MonthTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F835416256F1A1655548E7E10406CD /* MonthTitleLabel.swift */; };
+		4E65984546F5BFDF24CD3FECFF608F90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5942A173CB7C587F3AFBB6383C530455 /* Pods-EventsCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B3122EED2FC35B99F415725A310AB1 /* Pods-EventsCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69BC748CE0525A29EF810DCAF4776306 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C95D5C37F7D297BF3F4BBF8314AD38 /* Utils.swift */; };
+		8BBABF2D0036387AF980EB450B9C76BC /* WeekTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3CEE31499E784FC21CFCBA3ECA34B /* WeekTitleView.swift */; };
+		9107979E263DCA5E9F76E257A21F8764 /* WeekViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF72ECE5CB76FB784C2981D96B3DDC63 /* WeekViewCell.swift */; };
+		9ECAA70DA89EDB65FB7D0E9EDF1BD148 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A95203B36DF5D50E1E5C06C3E7C978F4 /* Pods-EventsCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1707EB36A525F14D3CE01DF963DE80E /* Pods-EventsCalendar_Tests-dummy.m */; };
+		BAC0C3926FE0132B3821B1B07A4681C1 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B39B7C043C9BFE3568D67AE0AE8C20 /* CalendarView.swift */; };
+		CA80641E642F299EB9EB54E2E27DF283 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB329798B61512FEAB832B8ACDF07F74 /* Date.swift */; };
+		E02609C47CBFFEAE7F18319977477F1D /* EventsCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DFD7D58CAFF8812DA336B78152C48F /* EventsCalendar-dummy.m */; };
+		E873E001B67776E3C306548CE7D90308 /* Pods-EventsCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E43E4E9912845938A62763A89ACA11 /* Pods-EventsCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2BB36CF824AC2080592A48AB0F47A7B /* MonthViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0DD880CB086C9B71175EB3063C424D /* MonthViewCell.swift */; };
+		F86AB79C24589495C9F7982E5E97CB98 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63052FC5F6F79CC62349E9887AAA77FC /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		27F3064D321870F6908BADDE16CC3458 /* PBXContainerItemProxy */ = {
+		625A88802141230CFE7F997BEAF5F05C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6982A4C00E141C6621535AEEE1C5F356;
+			remoteGlobalIDString = C1A1526DEE351ECDAA15F4BE750442BB;
 			remoteInfo = EventsCalendar;
 		};
-		B703CB4F922985FAF639DE84A9C81E3C /* PBXContainerItemProxy */ = {
+		92E05BB5CBFCBBDE2F5930D7D9571666 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B5500754D827BD53CB8209A82FC949B5;
+			remoteGlobalIDString = 00B7E80AE073F45939F10963FEDF74E7;
 			remoteInfo = "Pods-EventsCalendar_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19C60274DD412F05E0CF0D0F7B76060F /* Pods_EventsCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EventsCalendar_Tests.framework; path = "Pods-EventsCalendar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EC2747C4E52E7267B88A94703E7B86C /* Pods-EventsCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EventsCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		23E34B165AB6335140F4CB4FEED5407A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2A2B15110F6090F450FDBFB47D0B4D33 /* Pods-EventsCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EventsCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2F11150E5C4726A8E9FB560FBD6C02AE /* Pods-EventsCalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EventsCalendar_Tests.modulemap"; sourceTree = "<group>"; };
-		36D4A6E48701A2529D947AE8D1149A3A /* Pods-EventsCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventsCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		38FE753355DB90305FCC514A403066FE /* Pods-EventsCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventsCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4F7EEB8952FCB14717AF2C049BC3FD33 /* Pods-EventsCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventsCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		50EA6A8E7AD8039D503822434B9F106A /* EventsCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EventsCalendar.framework; path = EventsCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		630EF4FAA3F51006D848CBA1CCE4A9BA /* EventsCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EventsCalendar-umbrella.h"; sourceTree = "<group>"; };
-		66E95A5D73594084BFE2A04E9AA5E560 /* EventsCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EventsCalendar-dummy.m"; sourceTree = "<group>"; };
-		79B9493E319EE239CD5193DC83243E61 /* Pods-EventsCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EventsCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7BF0AA84ECC1C1EAB573C7A6AAEEB5F6 /* Pods-EventsCalendar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EventsCalendar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		861F17082AB40510EBB6D0C0C24FEA74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		8B83A84197A5656D4D97976F078BD292 /* Pods-EventsCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventsCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8C56AECB1D9936DA18FD7C82DDD559C7 /* EventsCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EventsCalendar-prefix.pch"; sourceTree = "<group>"; };
-		8DE42B5D53815EA9470E3C7B6CEBA9AF /* Pods-EventsCalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EventsCalendar_Tests-dummy.m"; sourceTree = "<group>"; };
-		993EA170FC5DD35EACB3E7378093FE83 /* Pods-EventsCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventsCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		05F835416256F1A1655548E7E10406CD /* MonthTitleLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthTitleLabel.swift; path = EventsCalendar/Classes/MonthTitleLabel.swift; sourceTree = "<group>"; };
+		1930314C8240C8E94DEE711D544BB3D6 /* EventsCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EventsCalendar-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3416EA5D081AAF0FD628A841481532DB /* Pods-EventsCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EventsCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36649B96D8B3A602117D5419D5A68419 /* Pods-EventsCalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EventsCalendar_Tests.modulemap"; sourceTree = "<group>"; };
+		38C33F36848357D1BF9FD0EC5995E9C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		396CD0F41ACA32D8287536A2EC43E3EE /* EventsCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EventsCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3EE91EAE36AFD088AC5D50BE4360A796 /* EventsCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EventsCalendar.modulemap; sourceTree = "<group>"; };
+		40B3122EED2FC35B99F415725A310AB1 /* Pods-EventsCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EventsCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
+		50CFC1200379F1555D7A7BC51D72D758 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = EventsCalendar/Classes/Size.swift; sourceTree = "<group>"; };
+		63052FC5F6F79CC62349E9887AAA77FC /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = EventsCalendar/Classes/UIView.swift; sourceTree = "<group>"; };
+		6343F0D9E10131D7921081E041995CEF /* EventsCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EventsCalendar.xcconfig; sourceTree = "<group>"; };
+		678406227E6129E1141AAE34C9364164 /* Pods-EventsCalendar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EventsCalendar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		685884FB162259772CCD01692E0EBDFA /* Pods-EventsCalendar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventsCalendar_Example-Info.plist"; sourceTree = "<group>"; };
+		6F0DD880CB086C9B71175EB3063C424D /* MonthViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthViewCell.swift; path = EventsCalendar/Classes/MonthViewCell.swift; sourceTree = "<group>"; };
+		75CD08CAE234785D2BF110FEEAE94E46 /* Pods-EventsCalendar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventsCalendar_Tests-Info.plist"; sourceTree = "<group>"; };
+		810B4FA4D151E32BDF1238294D01D171 /* Pods-EventsCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EventsCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		889EB22477814F16E1D1AD9488614FDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		98DFD7D58CAFF8812DA336B78152C48F /* EventsCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EventsCalendar-dummy.m"; sourceTree = "<group>"; };
+		99BDE7D8A18B7B53AFD50D23A6870F5B /* EventsCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EventsCalendar-Info.plist"; sourceTree = "<group>"; };
+		9A43202E1DD299E37AE4C22CA324A1BC /* Pods-EventsCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventsCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA1BB8A66431972F2F142A46B9D716B9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EventsCalendar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		B31461DAB37197FB871BDFB22EE2F25A /* Pods-EventsCalendar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventsCalendar_Example-Info.plist"; sourceTree = "<group>"; };
-		B5F73DC41BAFC4CDBE9C4D10E66DA464 /* Pods-EventsCalendar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EventsCalendar_Example-dummy.m"; sourceTree = "<group>"; };
-		B7A5A5C20C999527CE301CF4705FD33D /* Pods_EventsCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EventsCalendar_Example.framework; path = "Pods-EventsCalendar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0FFF72D8279E6F6B93D147BF1A0038A /* Pods-EventsCalendar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventsCalendar_Tests-Info.plist"; sourceTree = "<group>"; };
-		C969D18C45D0F825FBD1988D6F57F13D /* Pods-EventsCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EventsCalendar_Example.modulemap"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D60D14726A4C509AA5D5414D4F8B1814 /* EventsCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EventsCalendar.xcconfig; sourceTree = "<group>"; };
-		EC3320C69433EAF2EB7A4E29AA65283F /* Pods-EventsCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EventsCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
-		ED8A5876171B69E5B0E09B36F7B766F0 /* EventsCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EventsCalendar-Info.plist"; sourceTree = "<group>"; };
-		F1150592AB890D5CE127AE6417E78379 /* EventsCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EventsCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F4616AA0187C398A9884BCA3B90B8413 /* Pods-EventsCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventsCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F6B0A55D71B3F02DECB6289EC279E31F /* EventsCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EventsCalendar.modulemap; sourceTree = "<group>"; };
+		9DF6E36F20A4278DEBA4BC94ACBC17F0 /* Pods-EventsCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventsCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F2CD264182175DFDB2931DD1F00769D /* EventsCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EventsCalendar.framework; path = EventsCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB329798B61512FEAB832B8ACDF07F74 /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = EventsCalendar/Classes/Date.swift; sourceTree = "<group>"; };
+		AB9841B1AF4F3EB66A708F00C0D75CCE /* Pods-EventsCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EventsCalendar_Example.modulemap"; sourceTree = "<group>"; };
+		ABCB11B0728635040F5DF879E6FE3A3A /* Pods_EventsCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EventsCalendar_Tests.framework; path = "Pods-EventsCalendar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3416E63A8D0296ABAE2D4A3FC6D066D /* Configurations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configurations.swift; path = EventsCalendar/Classes/Configurations.swift; sourceTree = "<group>"; };
+		B6D0F34688E68F68D0D9F730EBCB93F1 /* Pods-EventsCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventsCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B98D210A823B2B1F32636D89E4889084 /* MonthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthView.swift; path = EventsCalendar/Classes/MonthView.swift; sourceTree = "<group>"; };
+		C488DF12DED28C593B6AE5E804F5F6F4 /* EventsCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EventsCalendar-umbrella.h"; sourceTree = "<group>"; };
+		C7CD239126ADB430C2D582855C724DD1 /* Pods-EventsCalendar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EventsCalendar_Example-dummy.m"; sourceTree = "<group>"; };
+		CF72ECE5CB76FB784C2981D96B3DDC63 /* WeekViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeekViewCell.swift; path = EventsCalendar/Classes/WeekViewCell.swift; sourceTree = "<group>"; };
+		D1707EB36A525F14D3CE01DF963DE80E /* Pods-EventsCalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EventsCalendar_Tests-dummy.m"; sourceTree = "<group>"; };
+		D3F3CEE31499E784FC21CFCBA3ECA34B /* WeekTitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeekTitleView.swift; path = EventsCalendar/Classes/WeekTitleView.swift; sourceTree = "<group>"; };
+		D9438BEDC898A023ABEA36D482592D44 /* Pods-EventsCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventsCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2B39B7C043C9BFE3568D67AE0AE8C20 /* CalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarView.swift; path = EventsCalendar/Classes/CalendarView.swift; sourceTree = "<group>"; };
+		E2C95D5C37F7D297BF3F4BBF8314AD38 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = EventsCalendar/Classes/Utils.swift; sourceTree = "<group>"; };
+		EBFE3AFB7BD8F4B92FC064412D955937 /* Pods-EventsCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventsCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EC0AFD5320BF2186F8E7C34AB438849A /* WeekView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeekView.swift; path = EventsCalendar/Classes/WeekView.swift; sourceTree = "<group>"; };
+		F037B0893AD006AB428E624FE4E44157 /* Pods-EventsCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventsCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F26AE79391C862F4F7FA383B8C5431BB /* Pods_EventsCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EventsCalendar_Example.framework; path = "Pods-EventsCalendar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E43E4E9912845938A62763A89ACA11 /* Pods-EventsCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EventsCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D21906B139DC71EA3741E41927A597A /* Frameworks */ = {
+		5C1F8D9CA95E9CF877CB70D03C90D9AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				548B21015ABBFAD12A9A7E26114AA132 /* Foundation.framework in Frameworks */,
+				9ECAA70DA89EDB65FB7D0E9EDF1BD148 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		714DF4CDB4E6278FDC9F85AD24029FEF /* Frameworks */ = {
+		AE4B9F6F15CFC8D7A208F71E7F1C431A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF21C6989094AA5B819EE365BD4B9647 /* Foundation.framework in Frameworks */,
+				4E65984546F5BFDF24CD3FECFF608F90 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92DB8F5413F960CC0E0607AD18D5E168 /* Frameworks */ = {
+		B270871E2EEDE158E612B95C28171288 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF343D634BDDE9B3802F3C2E741979B5 /* Foundation.framework in Frameworks */,
+				34EA033810172C8A0972AB7F44CFD300 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D622EB33FC633488C331A730686D0F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F82FC5B76DC6F41A7AB4196E95E1CD99 /* EventsCalendar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		3F84271899A0E83ADC6D1B85979F9CF4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50EA6A8E7AD8039D503822434B9F106A /* EventsCalendar.framework */,
-				B7A5A5C20C999527CE301CF4705FD33D /* Pods_EventsCalendar_Example.framework */,
-				19C60274DD412F05E0CF0D0F7B76060F /* Pods_EventsCalendar_Tests.framework */,
+				9F2CD264182175DFDB2931DD1F00769D /* EventsCalendar.framework */,
+				F26AE79391C862F4F7FA383B8C5431BB /* Pods_EventsCalendar_Example.framework */,
+				ABCB11B0728635040F5DF879E6FE3A3A /* Pods_EventsCalendar_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5D7501050D187E1C34E320789413B501 /* Pods-EventsCalendar_Example */ = {
+		5AEAEDF14911CAC57D6727FC776FFFBF /* Pods-EventsCalendar_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				C969D18C45D0F825FBD1988D6F57F13D /* Pods-EventsCalendar_Example.modulemap */,
-				2A2B15110F6090F450FDBFB47D0B4D33 /* Pods-EventsCalendar_Example-acknowledgements.markdown */,
-				38FE753355DB90305FCC514A403066FE /* Pods-EventsCalendar_Example-acknowledgements.plist */,
-				B5F73DC41BAFC4CDBE9C4D10E66DA464 /* Pods-EventsCalendar_Example-dummy.m */,
-				7BF0AA84ECC1C1EAB573C7A6AAEEB5F6 /* Pods-EventsCalendar_Example-frameworks.sh */,
-				B31461DAB37197FB871BDFB22EE2F25A /* Pods-EventsCalendar_Example-Info.plist */,
-				EC3320C69433EAF2EB7A4E29AA65283F /* Pods-EventsCalendar_Example-umbrella.h */,
-				993EA170FC5DD35EACB3E7378093FE83 /* Pods-EventsCalendar_Example.debug.xcconfig */,
-				F4616AA0187C398A9884BCA3B90B8413 /* Pods-EventsCalendar_Example.release.xcconfig */,
+				36649B96D8B3A602117D5419D5A68419 /* Pods-EventsCalendar_Tests.modulemap */,
+				3416EA5D081AAF0FD628A841481532DB /* Pods-EventsCalendar_Tests-acknowledgements.markdown */,
+				9DF6E36F20A4278DEBA4BC94ACBC17F0 /* Pods-EventsCalendar_Tests-acknowledgements.plist */,
+				D1707EB36A525F14D3CE01DF963DE80E /* Pods-EventsCalendar_Tests-dummy.m */,
+				75CD08CAE234785D2BF110FEEAE94E46 /* Pods-EventsCalendar_Tests-Info.plist */,
+				F7E43E4E9912845938A62763A89ACA11 /* Pods-EventsCalendar_Tests-umbrella.h */,
+				D9438BEDC898A023ABEA36D482592D44 /* Pods-EventsCalendar_Tests.debug.xcconfig */,
+				EBFE3AFB7BD8F4B92FC064412D955937 /* Pods-EventsCalendar_Tests.release.xcconfig */,
 			);
-			name = "Pods-EventsCalendar_Example";
-			path = "Target Support Files/Pods-EventsCalendar_Example";
+			name = "Pods-EventsCalendar_Tests";
+			path = "Target Support Files/Pods-EventsCalendar_Tests";
 			sourceTree = "<group>";
 		};
 		61680EEE2FD75BECB20B89285C2FBE06 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5D7501050D187E1C34E320789413B501 /* Pods-EventsCalendar_Example */,
-				A08023A9C078C2E18DD19584ACCC597E /* Pods-EventsCalendar_Tests */,
+				824F52B45C58DC9CB286D8C81F0A1205 /* Pods-EventsCalendar_Example */,
+				5AEAEDF14911CAC57D6727FC776FFFBF /* Pods-EventsCalendar_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9333DC6B7C6723BBD87B6BC14AEF8D9A /* EventsCalendar */ = {
+		824F52B45C58DC9CB286D8C81F0A1205 /* Pods-EventsCalendar_Example */ = {
 			isa = PBXGroup;
 			children = (
-				AA1BB8A66431972F2F142A46B9D716B9 /* ReplaceMe.swift */,
-				D5B22196D23F022A44D361BD01553852 /* Pod */,
-				9D076296C0B7BE296974275341C3409C /* Support Files */,
+				AB9841B1AF4F3EB66A708F00C0D75CCE /* Pods-EventsCalendar_Example.modulemap */,
+				810B4FA4D151E32BDF1238294D01D171 /* Pods-EventsCalendar_Example-acknowledgements.markdown */,
+				F037B0893AD006AB428E624FE4E44157 /* Pods-EventsCalendar_Example-acknowledgements.plist */,
+				C7CD239126ADB430C2D582855C724DD1 /* Pods-EventsCalendar_Example-dummy.m */,
+				678406227E6129E1141AAE34C9364164 /* Pods-EventsCalendar_Example-frameworks.sh */,
+				685884FB162259772CCD01692E0EBDFA /* Pods-EventsCalendar_Example-Info.plist */,
+				40B3122EED2FC35B99F415725A310AB1 /* Pods-EventsCalendar_Example-umbrella.h */,
+				B6D0F34688E68F68D0D9F730EBCB93F1 /* Pods-EventsCalendar_Example.debug.xcconfig */,
+				9A43202E1DD299E37AE4C22CA324A1BC /* Pods-EventsCalendar_Example.release.xcconfig */,
 			);
-			name = EventsCalendar;
-			path = ../..;
+			name = "Pods-EventsCalendar_Example";
+			path = "Target Support Files/Pods-EventsCalendar_Example";
 			sourceTree = "<group>";
 		};
-		975A9794A7B8CA54F4199B3011317B64 /* Development Pods */ = {
+		BF4448FCFF9AE3A8164A4CE12590B760 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9333DC6B7C6723BBD87B6BC14AEF8D9A /* EventsCalendar */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		9D076296C0B7BE296974275341C3409C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F6B0A55D71B3F02DECB6289EC279E31F /* EventsCalendar.modulemap */,
-				D60D14726A4C509AA5D5414D4F8B1814 /* EventsCalendar.xcconfig */,
-				66E95A5D73594084BFE2A04E9AA5E560 /* EventsCalendar-dummy.m */,
-				ED8A5876171B69E5B0E09B36F7B766F0 /* EventsCalendar-Info.plist */,
-				8C56AECB1D9936DA18FD7C82DDD559C7 /* EventsCalendar-prefix.pch */,
-				630EF4FAA3F51006D848CBA1CCE4A9BA /* EventsCalendar-umbrella.h */,
+				3EE91EAE36AFD088AC5D50BE4360A796 /* EventsCalendar.modulemap */,
+				6343F0D9E10131D7921081E041995CEF /* EventsCalendar.xcconfig */,
+				98DFD7D58CAFF8812DA336B78152C48F /* EventsCalendar-dummy.m */,
+				99BDE7D8A18B7B53AFD50D23A6870F5B /* EventsCalendar-Info.plist */,
+				1930314C8240C8E94DEE711D544BB3D6 /* EventsCalendar-prefix.pch */,
+				C488DF12DED28C593B6AE5E804F5F6F4 /* EventsCalendar-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/EventsCalendar";
 			sourceTree = "<group>";
 		};
-		A08023A9C078C2E18DD19584ACCC597E /* Pods-EventsCalendar_Tests */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2F11150E5C4726A8E9FB560FBD6C02AE /* Pods-EventsCalendar_Tests.modulemap */,
-				1EC2747C4E52E7267B88A94703E7B86C /* Pods-EventsCalendar_Tests-acknowledgements.markdown */,
-				8B83A84197A5656D4D97976F078BD292 /* Pods-EventsCalendar_Tests-acknowledgements.plist */,
-				8DE42B5D53815EA9470E3C7B6CEBA9AF /* Pods-EventsCalendar_Tests-dummy.m */,
-				C0FFF72D8279E6F6B93D147BF1A0038A /* Pods-EventsCalendar_Tests-Info.plist */,
-				79B9493E319EE239CD5193DC83243E61 /* Pods-EventsCalendar_Tests-umbrella.h */,
-				4F7EEB8952FCB14717AF2C049BC3FD33 /* Pods-EventsCalendar_Tests.debug.xcconfig */,
-				36D4A6E48701A2529D947AE8D1149A3A /* Pods-EventsCalendar_Tests.release.xcconfig */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = "Pods-EventsCalendar_Tests";
-			path = "Target Support Files/Pods-EventsCalendar_Tests";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				975A9794A7B8CA54F4199B3011317B64 /* Development Pods */,
+				05D622EB33FC633488C331A730686D0F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				3F84271899A0E83ADC6D1B85979F9CF4 /* Products */,
 				61680EEE2FD75BECB20B89285C2FBE06 /* Targets Support Files */,
@@ -206,17 +217,39 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5B22196D23F022A44D361BD01553852 /* Pod */ = {
+		F82FC5B76DC6F41A7AB4196E95E1CD99 /* EventsCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				F1150592AB890D5CE127AE6417E78379 /* EventsCalendar.podspec */,
-				861F17082AB40510EBB6D0C0C24FEA74 /* LICENSE */,
-				23E34B165AB6335140F4CB4FEED5407A /* README.md */,
+				E2B39B7C043C9BFE3568D67AE0AE8C20 /* CalendarView.swift */,
+				B3416E63A8D0296ABAE2D4A3FC6D066D /* Configurations.swift */,
+				AB329798B61512FEAB832B8ACDF07F74 /* Date.swift */,
+				05F835416256F1A1655548E7E10406CD /* MonthTitleLabel.swift */,
+				B98D210A823B2B1F32636D89E4889084 /* MonthView.swift */,
+				6F0DD880CB086C9B71175EB3063C424D /* MonthViewCell.swift */,
+				50CFC1200379F1555D7A7BC51D72D758 /* Size.swift */,
+				63052FC5F6F79CC62349E9887AAA77FC /* UIView.swift */,
+				E2C95D5C37F7D297BF3F4BBF8314AD38 /* Utils.swift */,
+				D3F3CEE31499E784FC21CFCBA3ECA34B /* WeekTitleView.swift */,
+				EC0AFD5320BF2186F8E7C34AB438849A /* WeekView.swift */,
+				CF72ECE5CB76FB784C2981D96B3DDC63 /* WeekViewCell.swift */,
+				FB3DE1BB4444D467384575C0015BBB36 /* Pod */,
+				BF4448FCFF9AE3A8164A4CE12590B760 /* Support Files */,
+			);
+			name = EventsCalendar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FB3DE1BB4444D467384575C0015BBB36 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				396CD0F41ACA32D8287536A2EC43E3EE /* EventsCalendar.podspec */,
+				38C33F36848357D1BF9FD0EC5995E9C7 /* LICENSE */,
+				889EB22477814F16E1D1AD9488614FDA /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -224,41 +257,79 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0B74DFCE5F6856C1522FA07C1B33F90C /* Headers */ = {
+		6AEC7A0541E43B5E00E337F4DFB4CCE3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4727EA5D2A1863E7E713F2692247E36 /* Pods-EventsCalendar_Example-umbrella.h in Headers */,
+				5942A173CB7C587F3AFBB6383C530455 /* Pods-EventsCalendar_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D07F85420BDA346D8D9C864E2E48BE5 /* Headers */ = {
+		D7DCA166C94D432EA84E4DBA10BAF34F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6556AD48F6E00DD0CBCAE7E0BFA1E36 /* Pods-EventsCalendar_Tests-umbrella.h in Headers */,
+				E873E001B67776E3C306548CE7D90308 /* Pods-EventsCalendar_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33D8D3AF27375B6CAA184F66F16C3513 /* Headers */ = {
+		FF16408D16FE56B3E7146259076FE423 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16A109E5D8F799D507B15D5E0C059387 /* EventsCalendar-umbrella.h in Headers */,
+				0420490FF8C7B4DF2929348B2D73DCAB /* EventsCalendar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6982A4C00E141C6621535AEEE1C5F356 /* EventsCalendar */ = {
+		00B7E80AE073F45939F10963FEDF74E7 /* Pods-EventsCalendar_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 308F0F611F3E2D54629368CB6B753E06 /* Build configuration list for PBXNativeTarget "EventsCalendar" */;
+			buildConfigurationList = 093ADF1B4A45C8ACDF84F057D8813596 /* Build configuration list for PBXNativeTarget "Pods-EventsCalendar_Example" */;
 			buildPhases = (
-				33D8D3AF27375B6CAA184F66F16C3513 /* Headers */,
-				71B171A327D51CABF48ABCE8F0E9C37D /* Sources */,
-				714DF4CDB4E6278FDC9F85AD24029FEF /* Frameworks */,
-				258C8973FC24189160E766A70C4BCECB /* Resources */,
+				6AEC7A0541E43B5E00E337F4DFB4CCE3 /* Headers */,
+				D21E6D143F0F24DA76928BF55AF9A657 /* Sources */,
+				B270871E2EEDE158E612B95C28171288 /* Frameworks */,
+				A62CA4BE93D32A6EEA2CAE1CFC98A154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF85DFAA1FC561A5BA99F52BAD1B0CAC /* PBXTargetDependency */,
+			);
+			name = "Pods-EventsCalendar_Example";
+			productName = "Pods-EventsCalendar_Example";
+			productReference = F26AE79391C862F4F7FA383B8C5431BB /* Pods_EventsCalendar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33A239E3CBAD77FE54B7827E543C5F18 /* Pods-EventsCalendar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 251DC887E644F97BDD0862E373BB7322 /* Build configuration list for PBXNativeTarget "Pods-EventsCalendar_Tests" */;
+			buildPhases = (
+				D7DCA166C94D432EA84E4DBA10BAF34F /* Headers */,
+				D28EF0B892418A5F659363E291BEA160 /* Sources */,
+				AE4B9F6F15CFC8D7A208F71E7F1C431A /* Frameworks */,
+				E0A27A7D8A16CCDA899946D47E310222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95BBB893629065FA4AC4427EB7007E08 /* PBXTargetDependency */,
+			);
+			name = "Pods-EventsCalendar_Tests";
+			productName = "Pods-EventsCalendar_Tests";
+			productReference = ABCB11B0728635040F5DF879E6FE3A3A /* Pods_EventsCalendar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1A1526DEE351ECDAA15F4BE750442BB /* EventsCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F769CE4F2B0195E1F976944D7DD60A /* Build configuration list for PBXNativeTarget "EventsCalendar" */;
+			buildPhases = (
+				FF16408D16FE56B3E7146259076FE423 /* Headers */,
+				14F6E4BD9B860BB78B410839AD4F5726 /* Sources */,
+				5C1F8D9CA95E9CF877CB70D03C90D9AA /* Frameworks */,
+				EBD1C2474D471E3894B7330248A922D8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -266,45 +337,7 @@
 			);
 			name = EventsCalendar;
 			productName = EventsCalendar;
-			productReference = 50EA6A8E7AD8039D503822434B9F106A /* EventsCalendar.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B5500754D827BD53CB8209A82FC949B5 /* Pods-EventsCalendar_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 182C5D35478108B31C09FDD7BF7BDD89 /* Build configuration list for PBXNativeTarget "Pods-EventsCalendar_Example" */;
-			buildPhases = (
-				0B74DFCE5F6856C1522FA07C1B33F90C /* Headers */,
-				2426A3C7E6B21FAD1EB9241136F6BA64 /* Sources */,
-				3D21906B139DC71EA3741E41927A597A /* Frameworks */,
-				47F648600E28B3572BDF758256C36CDA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				722B97E6D5984670B15B13F8DEC053D0 /* PBXTargetDependency */,
-			);
-			name = "Pods-EventsCalendar_Example";
-			productName = "Pods-EventsCalendar_Example";
-			productReference = B7A5A5C20C999527CE301CF4705FD33D /* Pods_EventsCalendar_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B5D400487F911478B4CEBDF76C54F44B /* Pods-EventsCalendar_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F701EB8BB5E60AC90D7FD9C41D4DBE98 /* Build configuration list for PBXNativeTarget "Pods-EventsCalendar_Tests" */;
-			buildPhases = (
-				2D07F85420BDA346D8D9C864E2E48BE5 /* Headers */,
-				9061C508906AC709F7368DF45FDCCDBD /* Sources */,
-				92DB8F5413F960CC0E0607AD18D5E168 /* Frameworks */,
-				A1EA87067599F38FCC269141FB7589D6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				97B7E54050ECB2A354D039A3037DEEAA /* PBXTargetDependency */,
-			);
-			name = "Pods-EventsCalendar_Tests";
-			productName = "Pods-EventsCalendar_Tests";
-			productReference = 19C60274DD412F05E0CF0D0F7B76060F /* Pods_EventsCalendar_Tests.framework */;
+			productReference = 9F2CD264182175DFDB2931DD1F00769D /* EventsCalendar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -313,12 +346,12 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -328,29 +361,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6982A4C00E141C6621535AEEE1C5F356 /* EventsCalendar */,
-				B5500754D827BD53CB8209A82FC949B5 /* Pods-EventsCalendar_Example */,
-				B5D400487F911478B4CEBDF76C54F44B /* Pods-EventsCalendar_Tests */,
+				C1A1526DEE351ECDAA15F4BE750442BB /* EventsCalendar */,
+				00B7E80AE073F45939F10963FEDF74E7 /* Pods-EventsCalendar_Example */,
+				33A239E3CBAD77FE54B7827E543C5F18 /* Pods-EventsCalendar_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		258C8973FC24189160E766A70C4BCECB /* Resources */ = {
+		A62CA4BE93D32A6EEA2CAE1CFC98A154 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47F648600E28B3572BDF758256C36CDA /* Resources */ = {
+		E0A27A7D8A16CCDA899946D47E310222 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1EA87067599F38FCC269141FB7589D6 /* Resources */ = {
+		EBD1C2474D471E3894B7330248A922D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,52 +393,186 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2426A3C7E6B21FAD1EB9241136F6BA64 /* Sources */ = {
+		14F6E4BD9B860BB78B410839AD4F5726 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A95D5EAFACC4C89D29694F871DF6E3B /* Pods-EventsCalendar_Example-dummy.m in Sources */,
+				BAC0C3926FE0132B3821B1B07A4681C1 /* CalendarView.swift in Sources */,
+				06035B5CCC0926CC3AF790548E7910A2 /* Configurations.swift in Sources */,
+				CA80641E642F299EB9EB54E2E27DF283 /* Date.swift in Sources */,
+				E02609C47CBFFEAE7F18319977477F1D /* EventsCalendar-dummy.m in Sources */,
+				4D5A4F24C56DC30037D2A866438E308C /* MonthTitleLabel.swift in Sources */,
+				3F69BF1587B20EB9B8655E7B362D75AB /* MonthView.swift in Sources */,
+				F2BB36CF824AC2080592A48AB0F47A7B /* MonthViewCell.swift in Sources */,
+				4288550C2F16C82C20F89D659934F6F6 /* Size.swift in Sources */,
+				F86AB79C24589495C9F7982E5E97CB98 /* UIView.swift in Sources */,
+				69BC748CE0525A29EF810DCAF4776306 /* Utils.swift in Sources */,
+				8BBABF2D0036387AF980EB450B9C76BC /* WeekTitleView.swift in Sources */,
+				1561BEF00DF4CF021D7872474F20228A /* WeekView.swift in Sources */,
+				9107979E263DCA5E9F76E257A21F8764 /* WeekViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71B171A327D51CABF48ABCE8F0E9C37D /* Sources */ = {
+		D21E6D143F0F24DA76928BF55AF9A657 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D220368D838958F0AB71965E7B514764 /* EventsCalendar-dummy.m in Sources */,
-				414C986324091A9ABDB7A3130ADC1156 /* ReplaceMe.swift in Sources */,
+				2EC6A119167DA98C35478DAEC11DEBC4 /* Pods-EventsCalendar_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9061C508906AC709F7368DF45FDCCDBD /* Sources */ = {
+		D28EF0B892418A5F659363E291BEA160 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6A7ECB20A266D046AFFD8F274ADDEE3 /* Pods-EventsCalendar_Tests-dummy.m in Sources */,
+				A95203B36DF5D50E1E5C06C3E7C978F4 /* Pods-EventsCalendar_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		722B97E6D5984670B15B13F8DEC053D0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EventsCalendar;
-			target = 6982A4C00E141C6621535AEEE1C5F356 /* EventsCalendar */;
-			targetProxy = 27F3064D321870F6908BADDE16CC3458 /* PBXContainerItemProxy */;
-		};
-		97B7E54050ECB2A354D039A3037DEEAA /* PBXTargetDependency */ = {
+		95BBB893629065FA4AC4427EB7007E08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-EventsCalendar_Example";
-			target = B5500754D827BD53CB8209A82FC949B5 /* Pods-EventsCalendar_Example */;
-			targetProxy = B703CB4F922985FAF639DE84A9C81E3C /* PBXContainerItemProxy */;
+			target = 00B7E80AE073F45939F10963FEDF74E7 /* Pods-EventsCalendar_Example */;
+			targetProxy = 92E05BB5CBFCBBDE2F5930D7D9571666 /* PBXContainerItemProxy */;
+		};
+		FF85DFAA1FC561A5BA99F52BAD1B0CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EventsCalendar;
+			target = C1A1526DEE351ECDAA15F4BE750442BB /* EventsCalendar */;
+			targetProxy = 625A88802141230CFE7F997BEAF5F05C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02395CC5F452FD594BA4E44C99D0F0F7 /* Release */ = {
+		2FDC1C3076D243F8ABC0475D4A9D426E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36D4A6E48701A2529D947AE8D1149A3A /* Pods-EventsCalendar_Tests.release.xcconfig */;
+			baseConfigurationReference = 6343F0D9E10131D7921081E041995CEF /* EventsCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EventsCalendar/EventsCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EventsCalendar/EventsCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EventsCalendar/EventsCalendar.modulemap";
+				PRODUCT_MODULE_NAME = EventsCalendar;
+				PRODUCT_NAME = EventsCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6340ED278AECF6ABB7542E6800E96F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6343F0D9E10131D7921081E041995CEF /* EventsCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EventsCalendar/EventsCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EventsCalendar/EventsCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EventsCalendar/EventsCalendar.modulemap";
+				PRODUCT_MODULE_NAME = EventsCalendar;
+				PRODUCT_NAME = EventsCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		908C940D6E6CEA32C1C414E1DB401968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFE3AFB7BD8F4B92FC064412D955937 /* Pods-EventsCalendar_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -419,7 +586,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EventsCalendar_Tests/Pods-EventsCalendar_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EventsCalendar_Tests/Pods-EventsCalendar_Tests.modulemap";
@@ -437,137 +604,7 @@
 			};
 			name = Release;
 		};
-		0E258B2CB92A3B1FDF135CD8A4C66672 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4616AA0187C398A9884BCA3B90B8413 /* Pods-EventsCalendar_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EventsCalendar_Example/Pods-EventsCalendar_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EventsCalendar_Example/Pods-EventsCalendar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		11EFCB6FCF042A7E22086FC0B2E42A3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D60D14726A4C509AA5D5414D4F8B1814 /* EventsCalendar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EventsCalendar/EventsCalendar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EventsCalendar/EventsCalendar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EventsCalendar/EventsCalendar.modulemap";
-				PRODUCT_MODULE_NAME = EventsCalendar;
-				PRODUCT_NAME = EventsCalendar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3BEE2B3C3B232BA0054C4581501F54CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F7EEB8952FCB14717AF2C049BC3FD33 /* Pods-EventsCalendar_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EventsCalendar_Tests/Pods-EventsCalendar_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EventsCalendar_Tests/Pods-EventsCalendar_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9773442EE380EDCADF153A4A8C9227AA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D60D14726A4C509AA5D5414D4F8B1814 /* EventsCalendar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EventsCalendar/EventsCalendar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EventsCalendar/EventsCalendar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EventsCalendar/EventsCalendar.modulemap";
-				PRODUCT_MODULE_NAME = EventsCalendar;
-				PRODUCT_NAME = EventsCalendar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -618,7 +655,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -626,14 +663,47 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		C49130FA6BA7A4C6BAEBE36EC4AB3FBE /* Debug */ = {
+		A627D6AF0CD6CCA6BC79746B9E14CE29 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 993EA170FC5DD35EACB3E7378093FE83 /* Pods-EventsCalendar_Example.debug.xcconfig */;
+			baseConfigurationReference = D9438BEDC898A023ABEA36D482592D44 /* Pods-EventsCalendar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EventsCalendar_Tests/Pods-EventsCalendar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EventsCalendar_Tests/Pods-EventsCalendar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF76F75D80ECCA360FE887430A566D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A43202E1DD299E37AE4C22CA324A1BC /* Pods-EventsCalendar_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -647,7 +717,41 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EventsCalendar_Example/Pods-EventsCalendar_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EventsCalendar_Example/Pods-EventsCalendar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC3F8B410C0DEF24BD565A3DBC261587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D0F34688E68F68D0D9F730EBCB93F1 /* Pods-EventsCalendar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EventsCalendar_Example/Pods-EventsCalendar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EventsCalendar_Example/Pods-EventsCalendar_Example.modulemap";
@@ -664,83 +768,23 @@
 			};
 			name = Debug;
 		};
-		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		182C5D35478108B31C09FDD7BF7BDD89 /* Build configuration list for PBXNativeTarget "Pods-EventsCalendar_Example" */ = {
+		093ADF1B4A45C8ACDF84F057D8813596 /* Build configuration list for PBXNativeTarget "Pods-EventsCalendar_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C49130FA6BA7A4C6BAEBE36EC4AB3FBE /* Debug */,
-				0E258B2CB92A3B1FDF135CD8A4C66672 /* Release */,
+				FC3F8B410C0DEF24BD565A3DBC261587 /* Debug */,
+				CF76F75D80ECCA360FE887430A566D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		308F0F611F3E2D54629368CB6B753E06 /* Build configuration list for PBXNativeTarget "EventsCalendar" */ = {
+		251DC887E644F97BDD0862E373BB7322 /* Build configuration list for PBXNativeTarget "Pods-EventsCalendar_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11EFCB6FCF042A7E22086FC0B2E42A3E /* Debug */,
-				9773442EE380EDCADF153A4A8C9227AA /* Release */,
+				A627D6AF0CD6CCA6BC79746B9E14CE29 /* Debug */,
+				908C940D6E6CEA32C1C414E1DB401968 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -748,17 +792,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
-				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F701EB8BB5E60AC90D7FD9C41D4DBE98 /* Build configuration list for PBXNativeTarget "Pods-EventsCalendar_Tests" */ = {
+		B0F769CE4F2B0195E1F976944D7DD60A /* Build configuration list for PBXNativeTarget "EventsCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BEE2B3C3B232BA0054C4581501F54CD /* Debug */,
-				02395CC5F452FD594BA4E44C99D0F0F7 /* Release */,
+				6340ED278AECF6ABB7542E6800E96F49 /* Debug */,
+				2FDC1C3076D243F8ABC0475D4A9D426E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
