@@ -75,40 +75,40 @@ public struct CalendarConfig: CalendarViewConfig, WeekTitleViewConfig, MonthTitl
     
     public static let `default`: CalendarConfig = CalendarConfig()
     
-    public let backgroundColor: UIColor
+    public var backgroundColor: UIColor
     
-    public let selectionColor: UIColor
-    public let dotColor: UIColor
-    public let selectedDotColor: UIColor
+    public var selectionColor: UIColor
+    public var dotColor: UIColor
+    public var selectedDotColor: UIColor
     
-    public let weekendLabelColor: UIColor
-    public let validLabelColor: UIColor
-    public let invalidLabelColor: UIColor
-    public let selectedLabelColor: UIColor
-    public let todayLabelColor: UIColor
-    public let otherMonthLabelColor: UIColor
+    public var weekendLabelColor: UIColor
+    public var validLabelColor: UIColor
+    public var invalidLabelColor: UIColor
+    public var selectedLabelColor: UIColor
+    public var todayLabelColor: UIColor
+    public var otherMonthLabelColor: UIColor
     
-    public let dateLabelFont: UIFont
+    public var dateLabelFont: UIFont
     
-    public let cellMaxWidth: CGFloat?
-    public let cellMaxHeight: CGFloat?
+    public var cellMaxWidth: CGFloat?
+    public var cellMaxHeight: CGFloat?
     
-    public let invalidatePastDates: Bool
-    public let shouldConsiderSaturdayAsWeekend: Bool
+    public var invalidatePastDates: Bool
+    public var shouldConsiderSaturdayAsWeekend: Bool
     
-    public let monthTitleFont: UIFont
-    public let monthTitleHeight: CGFloat
-    public let monthTitleTextColor: UIColor
-    public let monthTitleAlignment: NSTextAlignment
-    public let monthTitleBackgroundColor: UIColor
-    public let monthTitleStyle: MonthTitleStyle
-    public let monthTitleIncludesYear: Bool
+    public var monthTitleFont: UIFont
+    public var monthTitleHeight: CGFloat
+    public var monthTitleTextColor: UIColor
+    public var monthTitleAlignment: NSTextAlignment
+    public var monthTitleBackgroundColor: UIColor
+    public var monthTitleStyle: MonthTitleStyle
+    public var monthTitleIncludesYear: Bool
     
-    public let weekdayTitles: [String]
-    public let weekdayTitleFont: UIFont
-    public let weekdayTitleColor: UIColor
-    public let weekdayTitleHeight: CGFloat
-    public let weekdayTitlesBackgroundColor: UIColor
+    public var weekdayTitles: [String]
+    public var weekdayTitleFont: UIFont
+    public var weekdayTitleColor: UIColor
+    public var weekdayTitleHeight: CGFloat
+    public var weekdayTitlesBackgroundColor: UIColor
     
     public init(
         backgroundColor: UIColor = .white,

@@ -9,6 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'EventsCalendar'
   s.version          = '0.1.0'
+  s.swift_version    = '4.2'
   s.summary          = 'A light weight customizable iOS CalendarView with events population written in Swift'
 
 # This description is used to generate tags and improve search results.

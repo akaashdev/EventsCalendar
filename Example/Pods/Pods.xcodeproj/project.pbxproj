@@ -447,7 +447,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2FDC1C3076D243F8ABC0475D4A9D426E /* Release */ = {
+		04A2BCC45F1C763AB58CBA06CD7099E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6343F0D9E10131D7921081E041995CEF /* EventsCalendar.xcconfig */;
 			buildSettings = {
@@ -471,44 +471,44 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1CABA678E44B591CB524A5CE940DC657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6343F0D9E10131D7921081E041995CEF /* EventsCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EventsCalendar/EventsCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EventsCalendar/EventsCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EventsCalendar/EventsCalendar.modulemap";
+				PRODUCT_MODULE_NAME = EventsCalendar;
+				PRODUCT_NAME = EventsCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		6340ED278AECF6ABB7542E6800E96F49 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6343F0D9E10131D7921081E041995CEF /* EventsCalendar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EventsCalendar/EventsCalendar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EventsCalendar/EventsCalendar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EventsCalendar/EventsCalendar.modulemap";
-				PRODUCT_MODULE_NAME = EventsCalendar;
-				PRODUCT_NAME = EventsCalendar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -801,8 +801,8 @@
 		B0F769CE4F2B0195E1F976944D7DD60A /* Build configuration list for PBXNativeTarget "EventsCalendar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6340ED278AECF6ABB7542E6800E96F49 /* Debug */,
-				2FDC1C3076D243F8ABC0475D4A9D426E /* Release */,
+				04A2BCC45F1C763AB58CBA06CD7099E7 /* Debug */,
+				1CABA678E44B591CB524A5CE940DC657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
