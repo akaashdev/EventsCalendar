@@ -9,10 +9,12 @@
 ## Screenshots
 <img align="left" width="200" src="https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_1.png">
 <img align="left" width="200" src="https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_2.png">
-<img align="left" width="200" src="https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_3.png">
-<img align="left" width="200" src="https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_4.png">
+
 <img align="left" width="200" src="https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_5.png">
 <img align="left" width="200" src="https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_6.png">
+
+<img align="left" width="200" src="https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_3.png">
+<img align="left" width="200" src="https://github.com/akaashdev/EventsCalendar/blob/master/Screenshots/screenshot_4.png">
 
 
 ## Example
