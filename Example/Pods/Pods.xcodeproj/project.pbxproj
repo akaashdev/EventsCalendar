@@ -53,8 +53,8 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3416EA5D081AAF0FD628A841481532DB /* Pods-EventsCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EventsCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		36649B96D8B3A602117D5419D5A68419 /* Pods-EventsCalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EventsCalendar_Tests.modulemap"; sourceTree = "<group>"; };
-		38C33F36848357D1BF9FD0EC5995E9C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		396CD0F41ACA32D8287536A2EC43E3EE /* EventsCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EventsCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		38C33F36848357D1BF9FD0EC5995E9C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		396CD0F41ACA32D8287536A2EC43E3EE /* EventsCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EventsCalendar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3EE91EAE36AFD088AC5D50BE4360A796 /* EventsCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EventsCalendar.modulemap; sourceTree = "<group>"; };
 		40B3122EED2FC35B99F415725A310AB1 /* Pods-EventsCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EventsCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
 		50CFC1200379F1555D7A7BC51D72D758 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = EventsCalendar/Classes/Size.swift; sourceTree = "<group>"; };
@@ -65,16 +65,16 @@
 		6F0DD880CB086C9B71175EB3063C424D /* MonthViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthViewCell.swift; path = EventsCalendar/Classes/MonthViewCell.swift; sourceTree = "<group>"; };
 		75CD08CAE234785D2BF110FEEAE94E46 /* Pods-EventsCalendar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventsCalendar_Tests-Info.plist"; sourceTree = "<group>"; };
 		810B4FA4D151E32BDF1238294D01D171 /* Pods-EventsCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EventsCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		889EB22477814F16E1D1AD9488614FDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		889EB22477814F16E1D1AD9488614FDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		98DFD7D58CAFF8812DA336B78152C48F /* EventsCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EventsCalendar-dummy.m"; sourceTree = "<group>"; };
 		99BDE7D8A18B7B53AFD50D23A6870F5B /* EventsCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EventsCalendar-Info.plist"; sourceTree = "<group>"; };
 		9A43202E1DD299E37AE4C22CA324A1BC /* Pods-EventsCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventsCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF6E36F20A4278DEBA4BC94ACBC17F0 /* Pods-EventsCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventsCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9F2CD264182175DFDB2931DD1F00769D /* EventsCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EventsCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2CD264182175DFDB2931DD1F00769D /* EventsCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EventsCalendar.framework; path = EventsCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB329798B61512FEAB832B8ACDF07F74 /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = EventsCalendar/Classes/Date.swift; sourceTree = "<group>"; };
 		AB9841B1AF4F3EB66A708F00C0D75CCE /* Pods-EventsCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EventsCalendar_Example.modulemap"; sourceTree = "<group>"; };
-		ABCB11B0728635040F5DF879E6FE3A3A /* Pods_EventsCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventsCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCB11B0728635040F5DF879E6FE3A3A /* Pods_EventsCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EventsCalendar_Tests.framework; path = "Pods-EventsCalendar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3416E63A8D0296ABAE2D4A3FC6D066D /* Configurations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configurations.swift; path = EventsCalendar/Classes/Configurations.swift; sourceTree = "<group>"; };
 		B6D0F34688E68F68D0D9F730EBCB93F1 /* Pods-EventsCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventsCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B98D210A823B2B1F32636D89E4889084 /* MonthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthView.swift; path = EventsCalendar/Classes/MonthView.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		EBFE3AFB7BD8F4B92FC064412D955937 /* Pods-EventsCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EventsCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EC0AFD5320BF2186F8E7C34AB438849A /* WeekView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeekView.swift; path = EventsCalendar/Classes/WeekView.swift; sourceTree = "<group>"; };
 		F037B0893AD006AB428E624FE4E44157 /* Pods-EventsCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EventsCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F26AE79391C862F4F7FA383B8C5431BB /* Pods_EventsCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventsCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26AE79391C862F4F7FA383B8C5431BB /* Pods_EventsCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EventsCalendar_Example.framework; path = "Pods-EventsCalendar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E43E4E9912845938A62763A89ACA11 /* Pods-EventsCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EventsCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -563,7 +563,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

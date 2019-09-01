@@ -479,17 +479,6 @@ extension UIColor {
     }
 }
 
-
-extension Date {
-    init?(fromFormattedString string: String) {
-        self.init()
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy MM dd"
-        guard let date = dateFormatter.date(from: string) else { return nil }
-        self.addTimeInterval(date.timeIntervalSince1970 - self.timeIntervalSince1970)
-    }
-}
-
 extension Style {
     
     func getAlertAction(with responseAction: @escaping (Style)->()) -> UIAlertAction {

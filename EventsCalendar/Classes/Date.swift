@@ -8,6 +8,19 @@
 
 import Foundation
 
+public extension Date {
+    /// Initializes date object from date string in format "yyyy MM dd"
+    /// - Parameter string : Date string in format "yyyy MM dd" Eg. "2018 12 25"
+    init?(fromFormattedString string: String) {
+        self.init()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy MM dd"
+        guard let date = dateFormatter.date(from: string) else { return nil }
+        self.addTimeInterval(date.timeIntervalSince1970 - self.timeIntervalSince1970)
+    }
+}
+
+
 extension Date {
     
     init?(timeStamp: TimeInterval, timeZone: TimeZone) {
@@ -37,14 +50,6 @@ struct Formatter {
 extension Date {
     
     var isTodayDate: Bool { return self.equals(date: Date()) }
-    
-    init?(fromFormattedString string: String) {
-        self.init()
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy MM dd"
-        guard let date = dateFormatter.date(from: string) else { return nil }
-        self.addTimeInterval(date.timeIntervalSince1970 - self.timeIntervalSince1970)
-    }
     
     /// Formats date in the form 'yyyy MM dd'
     var dateFormattedString: String {
