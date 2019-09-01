@@ -175,6 +175,11 @@ public struct CalendarConfig: CalendarViewConfig, WeekTitleViewConfig, MonthTitl
         self.weekdayTitlesBackgroundColor = weekdayTitleBackgroundColor
     }
     
+    public init(configure: (inout CalendarConfig)->()) {
+        self.init()
+        configure(&self)
+    }
+    
 }
 
 
