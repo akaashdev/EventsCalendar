@@ -1,6 +1,6 @@
 //
 //  UIView.swift
-//  ZohoSocial
+//  CalendarComponentTest
 //
 //  Created by Akaash Dev on 08/09/17.
 //  Copyright © 2017 Akaash Dev. All rights reserved.

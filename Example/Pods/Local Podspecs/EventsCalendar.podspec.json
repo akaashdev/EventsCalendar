@@ -1,6 +1,6 @@
 {
   "name": "EventsCalendar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "swift_versions": "4.2",
   "summary": "A light weight customizable iOS CalendarView with events population written in Swift",
   "description": "Events Calendar is a user-friendly iOS Swift library that helps you achieve a cool Calendar UI with events mapping. Its supports both sync and async events loading. It is very light and optimized that it allows to achieve ~60 fps rendering easily. Achieves smooth scrolling and takes less memory. The attributes of calendar UI are completely customizable.",
@@ -22,7 +22,7 @@
   },
   "source": {
     "git": "https://github.com/akaashdev/EventsCalendar.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"

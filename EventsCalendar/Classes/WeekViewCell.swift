@@ -1,6 +1,6 @@
 //
 //  WeekViewCell.swift
-//  ZohoSocial
+//  CalendarComponentTest
 //
 //  Created by Akaash Dev on 14/12/17.
 //  Copyright © 2017 Akaash Dev. All rights reserved.

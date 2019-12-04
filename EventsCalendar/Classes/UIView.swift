@@ -1,6 +1,6 @@
 //
 //  UIView.swift
-//  ZohoSocial
+//  CalendarComponentTest
 //
 //  Created by Akaash Dev on 08/09/17.
 //  Copyright © 2017 Akaash Dev. All rights reserved.
@@ -15,10 +15,7 @@ extension UIView {
 //MARK: Anchor methods without SafeLayout Guide
     @discardableResult
     func anchorTop(with view: UIView? = nil, padding: CGFloat = 0) -> NSLayoutConstraint? {
-        guard let viewB = getViewB(from: view) else {
-            logError("No parent view to anchor with.")
-            return nil
-        }
+        guard let viewB = getViewB(from: view) else { return nil }
         let constraint = topAnchor.constraint(equalTo: viewB.topAnchor, constant: padding)
         constraint.isActive = true
         return constraint
@@ -26,10 +23,7 @@ extension UIView {
     
     @discardableResult
     func anchorBottom(with view: UIView? = nil, padding: CGFloat = 0) -> NSLayoutConstraint? {
-        guard let viewB = getViewB(from: view) else {
-            logError("No parent view to anchor with.")
-            return nil
-        }
+        guard let viewB = getViewB(from: view) else { return nil }
         let constraint = bottomAnchor.constraint(equalTo: viewB.bottomAnchor, constant: padding)
         constraint.isActive = true
         return constraint
@@ -37,10 +31,7 @@ extension UIView {
     
     @discardableResult
     func anchorLeading(with view: UIView? = nil, padding: CGFloat = 0) -> NSLayoutConstraint? {
-        guard let viewB = getViewB(from: view) else {
-            logError("No parent view to anchor with.")
-            return nil
-        }
+        guard let viewB = getViewB(from: view) else { return nil }
         let constraint = leadingAnchor.constraint(equalTo: viewB.leadingAnchor, constant: padding)
         constraint.isActive = true
         return constraint
@@ -48,10 +39,7 @@ extension UIView {
     
     @discardableResult
     func anchorTrailing(with view: UIView? = nil, padding: CGFloat = 0) -> NSLayoutConstraint? {
-        guard let viewB = getViewB(from: view) else {
-            logError("No parent view to anchor with.")
-            return nil
-        }
+        guard let viewB = getViewB(from: view) else { return nil }
         let constraint = trailingAnchor.constraint(equalTo: viewB.trailingAnchor, constant: padding)
         constraint.isActive = true
         return constraint
@@ -126,10 +114,7 @@ extension UIView {
 //MARK: Anchor methods with SafeLayout Guide
     @discardableResult
     func safeLeadingAnchor(padding: CGFloat = 0, with view: UIView? = nil) -> NSLayoutConstraint? {
-        guard let viewB = getViewB(from: view) else {
-            logError("No parent view to anchor with.")
-            return nil
-        }
+        guard let viewB = getViewB(from: view) else { return nil }
         let constraint: NSLayoutConstraint
         if #available(iOS 11.0, *) {
             constraint = leadingAnchor.constraint(equalTo: viewB.safeAreaLayoutGuide.leadingAnchor, constant: padding)
@@ -144,10 +129,7 @@ extension UIView {
     
     @discardableResult
     func safeTrailingAnchor(padding: CGFloat = 0, with view: UIView? = nil) -> NSLayoutConstraint? {
-        guard let viewB = getViewB(from: view) else {
-            logError("No parent view to anchor with.")
-            return nil
-        }
+        guard let viewB = getViewB(from: view) else { return nil }
         let constraint: NSLayoutConstraint
         if #available(iOS 11.0, *) {
             constraint =  trailingAnchor.constraint(equalTo: viewB.safeAreaLayoutGuide.trailingAnchor, constant: padding)
@@ -162,10 +144,7 @@ extension UIView {
     
     @discardableResult
     func safeTopAnchor(padding: CGFloat = 0, with view: UIView? = nil) -> NSLayoutConstraint? {
-        guard let viewB = getViewB(from: view) else {
-            logError("No parent view to anchor with.")
-            return nil
-        }
+        guard let viewB = getViewB(from: view) else { return nil }
         let constraint: NSLayoutConstraint
         if #available(iOS 11.0, *) {
             constraint = topAnchor.constraint(equalTo: viewB.safeAreaLayoutGuide.topAnchor, constant: padding)
@@ -179,10 +158,7 @@ extension UIView {
     
     @discardableResult
     func safeBottomAnchor(padding: CGFloat = 0, with view: UIView? = nil) -> NSLayoutConstraint? {
-        guard let viewB = getViewB(from: view) else {
-            logError("No parent view to anchor with.")
-            return nil
-        }
+        guard let viewB = getViewB(from: view) else { return nil }
         let constraint: NSLayoutConstraint
         if #available(iOS 11.0, *) {
             constraint = bottomAnchor.constraint(equalTo: viewB.safeAreaLayoutGuide.bottomAnchor, constant: padding)
@@ -196,10 +172,7 @@ extension UIView {
 //MARK: Anchor methods with ReadableLayout Guide
     @discardableResult
     func readableLeadingAnchor(padding: CGFloat = 0, with view: UIView? = nil) -> NSLayoutConstraint? {
-        guard let viewB = getViewB(from: view) else {
-            logError("No parent view to anchor with.")
-            return nil
-        }
+        guard let viewB = getViewB(from: view) else { return nil }
         let constraint = leadingAnchor.constraint(equalTo: viewB.readableContentGuide.leadingAnchor, constant: padding)
         constraint.isActive = true
         return constraint
@@ -207,10 +180,7 @@ extension UIView {
     
     @discardableResult
     func readableTrailingAnchor(padding: CGFloat = 0, with view: UIView? = nil) -> NSLayoutConstraint? {
-        guard let viewB = getViewB(from: view) else {
-            logError("No parent view to anchor with.")
-            return nil
-        }
+        guard let viewB = getViewB(from: view) else { return nil }
         let constraint = trailingAnchor.constraint(equalTo: viewB.readableContentGuide.trailingAnchor, constant: padding)
         constraint.isActive = true
         return constraint
@@ -218,10 +188,7 @@ extension UIView {
     
     @discardableResult
     func readableTopAnchor(padding: CGFloat = 0, with view: UIView? = nil) -> NSLayoutConstraint? {
-        guard let viewB = getViewB(from: view) else {
-            logError("No parent view to anchor with.")
-            return nil
-        }
+        guard let viewB = getViewB(from: view) else { return nil }
         let constraint = topAnchor.constraint(equalTo: viewB.readableContentGuide.topAnchor, constant: padding)
         constraint.isActive = true
         return constraint
@@ -229,10 +196,7 @@ extension UIView {
     
     @discardableResult
     func readableBottomAnchor(padding: CGFloat = 0, with view: UIView? = nil) -> NSLayoutConstraint? {
-        guard let viewB = getViewB(from: view) else {
-            logError("No parent view to anchor with.")
-            return nil
-        }
+        guard let viewB = getViewB(from: view) else { return nil }
         let constraint = bottomAnchor.constraint(equalTo: viewB.readableContentGuide.bottomAnchor, constant: padding)
         constraint.isActive = true
         return constraint
@@ -241,10 +205,7 @@ extension UIView {
 //MARK: Centering View methods
     @discardableResult
     func alignVerticallyCenter(padding: CGFloat = 0, with view: UIView? = nil) -> NSLayoutConstraint? {
-        guard let viewB = getViewB(from: view) else {
-            logError("No parent view to anchor with.")
-            return nil
-        }
+        guard let viewB = getViewB(from: view) else { return nil }
         let constraint = centerYAnchor.constraint(equalTo: viewB.centerYAnchor, constant: padding)
         constraint.isActive = true
         return constraint
@@ -252,10 +213,7 @@ extension UIView {
     
     @discardableResult
     func alignHorizontallyCenter(padding: CGFloat = 0, with view: UIView? = nil) -> NSLayoutConstraint? {
-        guard let viewB = getViewB(from: view) else {
-            logError("No parent view to anchor with.")
-            return nil
-        }
+        guard let viewB = getViewB(from: view) else { return nil }
         let constraint = centerXAnchor.constraint(equalTo: viewB.centerXAnchor, constant: padding)
         constraint.isActive = true
         return constraint
@@ -478,9 +436,14 @@ extension UIView {
     
 //MARK: Private methods
     private func getViewB(from view: UIView?) -> UIView? {
-        if let view = view { return view }
-        else if let view = superview { return view }
-        else { return nil }
+        if let view = view {
+            return view
+        }
+        if let view = superview {
+            return view
+        }
+        logError("No parent view to anchor with.")
+        return nil
     }
     
 }

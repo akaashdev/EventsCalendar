@@ -1,6 +1,6 @@
 //
 //  Date.swift
-//  ZohoSocial
+//  CalendarComponentTest
 //
 //  Created by Akaash Dev on 14/12/17.
 //  Copyright © 2017 Akaash Dev. All rights reserved.
@@ -299,55 +299,40 @@ extension Date {
         return calendar.compare(date, to: self, toGranularity: .year) == .orderedSame
     }
     
-    func weekDay(calendar: Calendar) -> Int {
-        
-        let weekDayIndex = calendar.component(.weekday, from: self)
-        return weekDayIndex
-    }
-    
     func numDaysInMonth(calendar: Calendar) -> Int {
-        
-        let range = calendar.range(of: .day, in: .month, for: self)
-        return range?.count ?? 0
+        return calendar.range(of: .day, in: .month, for: self)?.count ?? 0
     }
     
     func offsetMonth(_ numMonths: Int, calendar: Calendar) -> Date {
-        
-        var offsetComponents = DateComponents()
-        offsetComponents.month = numMonths
-        return calendar.date(byAdding: offsetComponents, to: self) ?? Date()
+        return calendar.date(byAdding: .month, value: numMonths, to: self) ?? Date()
     }
     
     func offsetDay(_ numDays: Int, calendar: Calendar) -> Date {
-        
-        var offsetComponents = DateComponents()
-        offsetComponents.day = numDays
-        return calendar.date(byAdding: offsetComponents, to: self) ?? Date()
+        return calendar.date(byAdding: .day, value: numDays, to: self) ?? Date()
+    }
+    
+    func weekDay(calendar: Calendar) -> Int {
+        return calendar.component(.weekday, from: self)
     }
     
     func day(calendar: Calendar) -> Int {
-        let components = calendar.dateComponents([.year, .month, .day, .weekOfMonth, .hour, .minute, .second, .weekday, .weekdayOrdinal], from: self)
-        return components.day ?? 0
+        return calendar.component(.day, from: self)
     }
     
     func month(calendar: Calendar) -> Int {
-        let components = calendar.dateComponents([.year, .month, .day, .weekOfMonth, .hour, .minute, .second, .weekday, .weekdayOrdinal], from: self)
-        return components.month ?? 0
+        return calendar.component(.month, from: self)
     }
     
     func year(calendar: Calendar) -> Int {
-        let components: DateComponents = calendar.dateComponents([.year, .month, .day, .weekOfMonth, .hour, .minute, .second, .weekday, .weekdayOrdinal], from: self)
-        return components.year ?? 0
+        return calendar.component(.year, from: self)
     }
     
     func HH(calendar: Calendar) -> Int {
-        let components = calendar.dateComponents([.hour], from: self)
-        return components.hour ?? 0
+        return calendar.component(.hour, from: self)
     }
     
     func mm(calendar: Calendar) -> Int {
-        let components = calendar.dateComponents([.minute], from: self)
-        return components.minute ?? 0
+        return calendar.component(.minute, from: self)
     }
     
 }

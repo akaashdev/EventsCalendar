@@ -30,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		2BA51B06C714CA08B0B9D088 /* Pods_EventsCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventsCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		364334BF968F4721030CD213 /* EventsCalendar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EventsCalendar.podspec; path = ../EventsCalendar.podspec; sourceTree = "<group>"; };
+		364334BF968F4721030CD213 /* EventsCalendar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EventsCalendar.podspec; path = ../EventsCalendar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3967637DEFF3696370587FB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4D7F1C449568856770EEF2AE /* Pods_EventsCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventsCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		501069D3231910EE0056D6FA /* EventsCalendar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventsCalendar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
